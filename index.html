@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Giới thiệu bản thân</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #0077b6;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        .main {
+            display: flex;            
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .container {
+            flex: 2;                   
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .sidebar {
+            flex: 1;                  
+            background: #f7fbfc;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid rgb(30, 158, 232);
+            margin: 20px auto;
+            display: block;
+            object-fit: cover;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .highlight {
+            color: #000000;
+            font-weight: bold;
+        }
+
+        a {
+            color: #0077b6;
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Giới thiệu bản thân</h1>
+    </header>
+
+    <img src="pfp.webp" class="profile-img">
+
+    <div class="main">
+        <div class="container">
+            <p>Họ và tên: <span class="highlight">Phạm Minh Đức</span></p>
+            <p>Ngày sinh: 07/04/2006</p>
+            <p>Nghề nghiệp: Sinh viên năm 2 khoa UDU trường PTIT</p>
+            <p>Số điện thoại: 0946426698</p>
+
+            <h2 class="highlight">Liên hệ</h2>
+            <p> 
+                <a href="mailto:example@gmail.com">Email</a> | 
+                <a href="https://www.facebook.com" target="_blank">Facebook</a> | 
+                <a href="https://github.com" target="_blank">GitHub</a>
+            </p>
+        </div>
+
+        <div class="sidebar">
+            <h2>Sở thích</h2>
+            <ul>
+                <li>Chơi game</li>
+                <li>Lập trình & khám phá công nghệ mới</li>
+                <li>Chơi thể thao (bóng đá, cầu lông)</li>
+                <li>Nghe nhạc</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
